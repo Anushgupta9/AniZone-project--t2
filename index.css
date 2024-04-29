@@ -1,0 +1,413 @@
+.inicio-child,
+.linear-inner {
+  position: absolute;
+  left: 0;
+  width: 430px;
+}
+.inicio-child {
+  top: 0;
+  height: 753px;
+  object-fit: cover;
+}
+.linear-inner {
+  top: 450px;
+  background-color: var(--neutral-black);
+  height: 930px;
+}
+.ranma-121,
+.ranma-es-un {
+  position: relative;
+  font-weight: 600;
+}
+.ranma-es-un {
+  width: 379px;
+  font-size: var(--title-description-size);
+  font-weight: 500;
+  display: inline-block;
+}
+.text9 {
+  position: absolute;
+  height: 68%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 32%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.play-arrow-fill0-wght400-grad0-icon8 {
+  width: 40px;
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ver-ahora1 {
+  width: 106px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.button1 {
+  position: absolute;
+  height: 22.86%;
+  width: 46.97%;
+  top: 77.14%;
+  right: 53.03%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--orange-50);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--normal-semibold-size);
+  color: var(--neutral-black);
+}
+.component-2 {
+  width: 379px;
+  position: relative;
+  height: 175px;
+}
+.component-2-wrapper,
+.linear1 {
+  position: absolute;
+  left: 0;
+  width: 430px;
+}
+.component-2-wrapper {
+  top: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.96) 50%,
+    rgba(51, 51, 51, 0)
+  );
+  height: 665px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 239px var(--padding-base);
+  box-sizing: border-box;
+}
+.linear1 {
+  top: 186px;
+  height: 1380px;
+  font-size: var(--title-title-size);
+}
+.recommendations {
+  position: relative;
+  font-weight: 500;
+}
+.small-card-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.series9 {
+  position: relative;
+  font-size: var(--smallcard-extra-2-size);
+  color: var(--orange-50);
+}
+.jujutsu-kaisen-parent {
+  position: absolute;
+  top: 168px;
+  left: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.iconsoliddots-vertical17 {
+  position: absolute;
+  height: 7.31%;
+  width: 12.31%;
+  top: 98.17%;
+  right: 3.08%;
+  bottom: -5.48%;
+  left: 84.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.small-card {
+  width: 130px;
+  position: relative;
+  height: 219px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.jujutsu-kaisen1 {
+  width: 84px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.small-card1 {
+  width: 130px;
+  position: relative;
+  height: 219px;
+  flex-shrink: 0;
+}
+.jujutsu-kaisen3 {
+  width: 84px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.carrete,
+.recommendations-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carrete {
+  width: 414px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--small-semibold-size);
+}
+.recommendations-parent {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.image-icon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-9xs) var(--br-9xs) var(--br-9xs) 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.contenedor1,
+.image-icon,
+.timebar {
+  position: absolute;
+  left: 0;
+}
+.contenedor1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+}
+.timebar {
+  top: 169px;
+  background-color: var(--orange-50);
+  width: 318px;
+  height: 3px;
+}
+.play-arrow-black-24dp-2-icon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.seguir-viendo {
+  position: absolute;
+  height: 18.6%;
+  width: 32.41%;
+  top: 76.74%;
+  right: 65.58%;
+  bottom: 4.65%;
+  left: 2.01%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.jujutsu-kaisen7 {
+  position: relative;
+}
+.jujutsu-kaisen-parent5 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xs);
+  font-size: var(--normal-semibold-size);
+  color: var(--neutral-withe);
+}
+.card {
+  width: 398px;
+  position: relative;
+  height: 172px;
+  flex-shrink: 0;
+}
+.carrete-seguir-viendo,
+.frame-parent9 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carrete-seguir-viendo {
+  width: 414px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--small-semibold-size);
+  color: var(--orange-50);
+}
+.frame-parent9 {
+  gap: var(--gap-5xl);
+}
+.contenido,
+.frame-parent9,
+.home20 {
+  display: flex;
+  flex-direction: column;
+}
+.contenido {
+  position: absolute;
+  top: 624px;
+  left: 16px;
+  overflow: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.home20 {
+  width: 86px;
+  background-color: var(--blue-50);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.iconsolidhome {
+  width: 28px;
+  position: relative;
+  height: 28px;
+}
+.app-bar2,
+.home24 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home24 {
+  width: 86px;
+  background-color: var(--blue-50);
+  flex-direction: column;
+  padding: var(--padding-7xs) 0;
+  box-sizing: border-box;
+  color: var(--orange-50);
+}
+.app-bar2 {
+  position: absolute;
+  top: 867px;
+  left: 0;
+  box-shadow: 0-2px 4px rgba(54, 53, 53, 0.58);
+  flex-direction: row;
+}
+.border1,
+.cap-icon1 {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border1 {
+  height: 100%;
+  width: 90.32%;
+  top: 0;
+  right: 9.68%;
+  bottom: 0;
+  left: 0;
+  border-radius: 2.67px;
+  border: 1px solid var(--neutral-black);
+  box-sizing: border-box;
+  opacity: 0.35;
+}
+.cap-icon1 {
+  height: 35.4%;
+  width: 5.38%;
+  top: 32.74%;
+  right: 0;
+  bottom: 31.86%;
+  left: 94.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.4;
+}
+.capacity1 {
+  position: absolute;
+  height: 64.6%;
+  width: 73.84%;
+  top: 17.7%;
+  right: 17.92%;
+  bottom: 17.7%;
+  left: 8.24%;
+  border-radius: 1.33px;
+  background-color: var(--neutral-black);
+}
+.battery1 {
+  position: absolute;
+  height: 25.68%;
+  width: 6.49%;
+  top: 39.32%;
+  right: 3.81%;
+  bottom: 35%;
+  left: 89.7%;
+}
+.wifi-icon1 {
+  position: relative;
+  width: 17.6px;
+  height: 11px;
+}
+.cellular-connection-icon1 {
+  position: relative;
+  width: 19.5px;
+  height: 10.7px;
+}
+.bars-status-bar-iphone-l1 {
+  position: absolute;
+  width: 100%;
+  top: -10px;
+  right: -8px;
+  left: 8px;
+  height: 44px;
+}
+.inicio {
+  width: 100%;
+  position: relative;
+  background-color: var(--gray-50);
+  height: 929px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--normal-semibold-size);
+  color: var(--neutral-withe);
+  font-family: var(--normal-semibold);
+}

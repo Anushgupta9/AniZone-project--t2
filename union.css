@@ -1,0 +1,7 @@
+.union {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-withe);
+  height: 0;
+  display: none;
+}

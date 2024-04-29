@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./perfiles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Keania One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="perfiles">
+      <div class="que-estas-mirando">
+        <div class="perfiles1">
+          <div class="perfilcard" id="perfilCardContainer">
+            <img
+              class="perfilcard-child"
+              alt=""
+              src="./public/ellipse-123@2x.png"
+            />
+
+            <div class="alexmaster">AlexMaster</div>
+          </div>
+          <div class="perfilcard" id="perfilCardContainer1">
+            <img
+              class="perfilcard-child"
+              alt=""
+              src="./public/ellipse-123@2x.png"
+            />
+
+            <div class="alexmaster">Andres0089</div>
+          </div>
+          <div class="perfilcard" id="perfilCardContainer2">
+            <img
+              class="perfilcard-child"
+              alt=""
+              src="./public/ellipse-123@2x.png"
+            />
+
+            <div class="alexmaster">Paulina</div>
+          </div>
+          <div class="perfilcard3">
+            <img
+              class="ellipse-icon"
+              alt=""
+              src="./public/ellipse-123@2x.png"
+              id="ellipseImage"
+            />
+
+            <div class="alexmaster">Alexandra22</div>
+          </div>
+        </div>
+      </div>
+      <div class="logonormal-parent">
+        <div class="logonormal">
+          <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+          <div class="masterseries">AniZone</div>
+        </div>
+        <div class="ellipse-parent">
+          <div class="group-child"></div>
+          <div class="a-parent">
+            <div class="a">A</div>
+            <div class="z">Z</div>
+          </div>
+        </div>
+      </div>
+      <div class="bars-status-bar-iphone-l">
+        <div class="battery">
+          <div class="border"></div>
+          <img class="cap-icon" alt="" src="./public/cap.svg" />
+
+          <div class="capacity"></div>
+        </div>
+        <img class="wifi-icon" alt="" src="./public/wifi.svg" />
+
+        <img
+          class="cellular-connection-icon"
+          alt=""
+          src="./public/cellular-connection.svg"
+        />
+      </div>
+    </div>
+
+    <script>
+      var perfilCardContainer = document.getElementById("perfilCardContainer");
+      if (perfilCardContainer) {
+        perfilCardContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var perfilCardContainer1 = document.getElementById("perfilCardContainer1");
+      if (perfilCardContainer1) {
+        perfilCardContainer1.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var perfilCardContainer2 = document.getElementById("perfilCardContainer2");
+      if (perfilCardContainer2) {
+        perfilCardContainer2.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var ellipseImage = document.getElementById("ellipseImage");
+      if (ellipseImage) {
+        ellipseImage.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

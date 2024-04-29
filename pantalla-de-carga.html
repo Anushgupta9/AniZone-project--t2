@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./pantalla-de-carga.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Keania One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="pantalla-de-carga">
+      <div class="pantalla-de-carga-inner">
+        <div class="ellipse-group">
+          <div class="group-item"></div>
+          <div class="a-group">
+            <div class="a1" onclick="redirectToIndex()">A</div>
+            <div class="z1" onclick="redirectToIndex()">Z</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function redirectToIndex() {
+        window.location.href = "perfiles.html";
+      }
+    </script>
+  </body>
+</html>
